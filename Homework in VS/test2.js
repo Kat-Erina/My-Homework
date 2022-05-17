@@ -25,7 +25,7 @@ else
     }
 
 let result2=checkPythagoras(3,4,5);
-console.log(result);
+console.log(result2);
 
 // Task 3
 
