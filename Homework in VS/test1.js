@@ -24,7 +24,25 @@ console.log(result);
 let students=['John','Sam','Ann','Will','Andrew','Joseph','Lorelai','Amelie','Den'];
 console.log(students[4]);
 
+//TAsk3
+let student={
+    firstName:'Kato',
+    lastName: 'Nalchevanidze',
+    age: 25,
+    subjects: ['Maths', 'History', 'Arts', 'Web Development', "Music"],
+    roomMate:{
+            fullName: 'John Smith',
+            age: 30
+}
+}
 
+for(let i=0; i<student.subjects.length; i++){
+    console.log(student.subjects[i]);
+}
+
+let fullName=student.firstName+' '+student.lastName;
+student.fullName=fullName;
+console.log(student);
 
 
 // Task 4 
