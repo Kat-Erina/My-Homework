@@ -26,6 +26,7 @@ console.log(students[4]);
 
 
 
+
 // Task 4 gaketebulia
 
 let fruits=["Banana", "Orange", "Apple", "Mango",2,12];
