@@ -82,3 +82,43 @@ function checkAngle(degree){
 
 let test= checkAngle(180);
 console.log(test);
+
+
+//Task 5
+
+let students=[
+  {
+  name: 'Kato',
+  grade: 90
+},
+{name: 'Rati',
+grade: 70},
+{
+  name:'Natia',
+  grade:20
+}
+]
+
+function checkStudentsGrade(studentsGrades){
+  for(let i=0; i<studentsGrades.length; i++){
+    let grade=students[i].grade;
+    if(grade<50){
+      students[i].finalResult='F'
+    }
+    else if(grade>50 && grade<60){
+      students[i].finalResult='E'
+    }
+    else if(grade>60 && grade<71){
+      students[i].finalResult='D'
+    }
+    else if(grade>70 &&grade<81){
+      students[i].finalResult='C'
+    }
+    else if(grade>80 && grade<=100){
+      students[i].finalResult='A'}
+  }
+  return students
+}
+
+let result2=checkStudentsGrade(students);
+console.log(result2);  
