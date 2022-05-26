@@ -38,6 +38,29 @@ let y = minMax([15,26,83,10,12]);
 
 console.log(y);
 
+//II method;
+
+let numbers=[10,5,20,56,89];
+function minMax(arr){
+      let max=0;
+      let min=arr[0];
+      for(let i=0; i<arr.length;i++)
+      {
+    if(arr[i]>max)
+    {
+     max=arr[i]
+  }
+  if(arr[i]<min){
+   min=arr[i]
+  }
+  }
+    return `'max is ${max} and min is ${min}'`
+
+}
+
+let result=minMax(numbers);
+console.log(result);
+
 
 // Task 4
 
